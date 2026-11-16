@@ -1,0 +1,245 @@
+{
+  "dataset": "C:\\Users\\tum\\Downloads\\python\\python\\dataset",
+  "split": {
+    "method": "stratified_random_image_split",
+    "requested_test_fraction": 0.3,
+    "actual_train_fraction": 0.699642431466031,
+    "actual_test_fraction": 0.300357568533969,
+    "train_samples": 587,
+    "test_samples": 252,
+    "sessions_by_class": {},
+    "validation_sessions_by_class": {}
+  },
+  "classes": [
+    "Hoai_Phuong",
+    "Hoang_Anh",
+    "Huu_Thang",
+    "Minh_Hy",
+    "Thanh_Trinh"
+  ],
+  "cnn_test_accuracy": 0.29365079365079366,
+  "svm": {
+    "accuracy": 0.9325396825396826,
+    "classification_report": {
+      "Hoai_Phuong": {
+        "precision": 0.9459459459459459,
+        "recall": 0.875,
+        "f1-score": 0.9090909090909091,
+        "support": 40.0
+      },
+      "Hoang_Anh": {
+        "precision": 0.9545454545454546,
+        "recall": 1.0,
+        "f1-score": 0.9767441860465116,
+        "support": 63.0
+      },
+      "Huu_Thang": {
+        "precision": 0.9375,
+        "recall": 0.9574468085106383,
+        "f1-score": 0.9473684210526315,
+        "support": 47.0
+      },
+      "Minh_Hy": {
+        "precision": 0.9078947368421053,
+        "recall": 0.9324324324324325,
+        "f1-score": 0.92,
+        "support": 74.0
+      },
+      "Thanh_Trinh": {
+        "precision": 0.92,
+        "recall": 0.8214285714285714,
+        "f1-score": 0.8679245283018868,
+        "support": 28.0
+      },
+      "accuracy": 0.9325396825396826,
+      "macro avg": {
+        "precision": 0.9331772274667012,
+        "recall": 0.9172615624743286,
+        "f1-score": 0.9242256088983878,
+        "support": 252.0
+      },
+      "weighted avg": {
+        "precision": 0.9324639365099892,
+        "recall": 0.9325396825396826,
+        "f1-score": 0.9317727089940202,
+        "support": 252.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        35,
+        1,
+        1,
+        2,
+        1
+      ],
+      [
+        0,
+        63,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        45,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        2,
+        69,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        3,
+        23
+      ]
+    ],
+    "misclassified_count": 17,
+    "misclassified_images": [
+      {
+        "image": "C:\\Users\\tum\\Downloads\\python\\python\\dataset\\Minh_Hy\\Minh_Hy_2\\92.jpg",
+        "saved_copy": null,
+        "true_label": "Minh_Hy",
+        "predicted_label": "Huu_Thang",
+        "confidence": 0.7389269655470444,
+        "session": "Minh_Hy_2"
+      },
+      {
+        "image": "C:\\Users\\tum\\Downloads\\python\\python\\dataset\\Thanh_Trinh\\1794315656796_253822635990452388_7801274369960124770_7f6ec99c2c16301e51970d3cf05ba9bc.jpg",
+        "saved_copy": null,
+        "true_label": "Thanh_Trinh",
+        "predicted_label": "Minh_Hy",
+        "confidence": 0.5953083792071191,
+        "session": "__legacy_flat__"
+      },
+      {
+        "image": "C:\\Users\\tum\\Downloads\\python\\python\\dataset\\Hoai_Phuong\\p14.jpg",
+        "saved_copy": null,
+        "true_label": "Hoai_Phuong",
+        "predicted_label": "Minh_Hy",
+        "confidence": 0.5818648371669759,
+        "session": "__legacy_flat__"
+      },
+      {
+        "image": "C:\\Users\\tum\\Downloads\\python\\python\\dataset\\Huu_Thang\\Huu_Thang_2\\2.jpg",
+        "saved_copy": null,
+        "true_label": "Huu_Thang",
+        "predicted_label": "Minh_Hy",
+        "confidence": 0.5671315389829932,
+        "session": "Huu_Thang_2"
+      },
+      {
+        "image": "C:\\Users\\tum\\Downloads\\python\\python\\dataset\\Hoai_Phuong\\p59.jpg",
+        "saved_copy": null,
+        "true_label": "Hoai_Phuong",
+        "predicted_label": "Thanh_Trinh",
+        "confidence": 0.7079252738138555,
+        "session": "__legacy_flat__"
+      },
+      {
+        "image": "C:\\Users\\tum\\Downloads\\python\\python\\dataset\\Thanh_Trinh\\1794315728910_253822635990452388_7801274369960124770_a60f14f6245ccea385d6a62affabe2d0.jpg",
+        "saved_copy": null,
+        "true_label": "Thanh_Trinh",
+        "predicted_label": "Hoai_Phuong",
+        "confidence": 0.45128596136713445,
+        "session": "__legacy_flat__"
+      },
+      {
+        "image": "C:\\Users\\tum\\Downloads\\python\\python\\dataset\\Huu_Thang\\Huu_Thang_2\\3.jpg",
+        "saved_copy": null,
+        "true_label": "Huu_Thang",
+        "predicted_label": "Minh_Hy",
+        "confidence": 0.5784852252310938,
+        "session": "Huu_Thang_2"
+      },
+      {
+        "image": "C:\\Users\\tum\\Downloads\\python\\python\\dataset\\Thanh_Trinh\\1794315692415_253822635990452388_7801274369960124770_0382fd11d8a5c78b5505b60655bfb18f.jpg",
+        "saved_copy": null,
+        "true_label": "Thanh_Trinh",
+        "predicted_label": "Hoai_Phuong",
+        "confidence": 0.5918963014017588,
+        "session": "__legacy_flat__"
+      },
+      {
+        "image": "C:\\Users\\tum\\Downloads\\python\\python\\dataset\\Hoai_Phuong\\p6.jpg",
+        "saved_copy": null,
+        "true_label": "Hoai_Phuong",
+        "predicted_label": "Minh_Hy",
+        "confidence": 0.7729776183536567,
+        "session": "__legacy_flat__"
+      },
+      {
+        "image": "C:\\Users\\tum\\Downloads\\python\\python\\dataset\\Minh_Hy\\phien_ban_1\\IMG_7881.HEIC",
+        "saved_copy": null,
+        "true_label": "Minh_Hy",
+        "predicted_label": "Hoang_Anh",
+        "confidence": 0.38672797221033695,
+        "session": "phien_ban_1"
+      },
+      {
+        "image": "C:\\Users\\tum\\Downloads\\python\\python\\dataset\\Minh_Hy\\phien_ban_1\\IMG_7882.HEIC",
+        "saved_copy": null,
+        "true_label": "Minh_Hy",
+        "predicted_label": "Thanh_Trinh",
+        "confidence": 0.9188836369456398,
+        "session": "phien_ban_1"
+      },
+      {
+        "image": "C:\\Users\\tum\\Downloads\\python\\python\\dataset\\Minh_Hy\\phien_ban_1\\IMG_7868.HEIC",
+        "saved_copy": null,
+        "true_label": "Minh_Hy",
+        "predicted_label": "Hoang_Anh",
+        "confidence": 0.4204933197254316,
+        "session": "phien_ban_1"
+      },
+      {
+        "image": "C:\\Users\\tum\\Downloads\\python\\python\\dataset\\Thanh_Trinh\\1794315694292_253822635990452388_7801274369960124770_e1fb2d47259d38ca8fad5be053406102.jpg",
+        "saved_copy": null,
+        "true_label": "Thanh_Trinh",
+        "predicted_label": "Minh_Hy",
+        "confidence": 0.9285039487482026,
+        "session": "__legacy_flat__"
+      },
+      {
+        "image": "C:\\Users\\tum\\Downloads\\python\\python\\dataset\\Hoai_Phuong\\p8.jpg",
+        "saved_copy": null,
+        "true_label": "Hoai_Phuong",
+        "predicted_label": "Hoang_Anh",
+        "confidence": 0.7789519644847321,
+        "session": "__legacy_flat__"
+      },
+      {
+        "image": "C:\\Users\\tum\\Downloads\\python\\python\\dataset\\Thanh_Trinh\\1794315693390_253822635990452388_7801274369960124770_d1b3693d3e89cae8be7657f0ea6870b3.jpg",
+        "saved_copy": null,
+        "true_label": "Thanh_Trinh",
+        "predicted_label": "Minh_Hy",
+        "confidence": 0.5359482193711238,
+        "session": "__legacy_flat__"
+      },
+      {
+        "image": "C:\\Users\\tum\\Downloads\\python\\python\\dataset\\Minh_Hy\\Minh_Hy_2\\23.jpg",
+        "saved_copy": null,
+        "true_label": "Minh_Hy",
+        "predicted_label": "Huu_Thang",
+        "confidence": 0.6345087672723769,
+        "session": "Minh_Hy_2"
+      },
+      {
+        "image": "C:\\Users\\tum\\Downloads\\python\\python\\dataset\\Hoai_Phuong\\p7.jpg",
+        "saved_copy": null,
+        "true_label": "Hoai_Phuong",
+        "predicted_label": "Huu_Thang",
+        "confidence": 0.7219794425459154,
+        "session": "__legacy_flat__"
+      }
+    ]
+  }
+}
